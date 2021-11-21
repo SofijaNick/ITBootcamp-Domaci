@@ -1,0 +1,35 @@
+div{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+img{
+    width: 450px;
+    height: 450px;
+}
+#div1{
+    padding-left: 30px;
+    padding-right: 100px;
+}
+#div2{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#div3{
+    padding-left: 100px;
+}
+h3{
+    text-align: center;
+}
+aside{
+    border-right: 1px solid rgb(205, 232, 241);
+    border-bottom: 1px solid rgb(184, 221, 233);
+}
+section{
+    border-right: 1px solid rgb(199, 231, 241);
+    margin: 0px;
+}
+
+
+

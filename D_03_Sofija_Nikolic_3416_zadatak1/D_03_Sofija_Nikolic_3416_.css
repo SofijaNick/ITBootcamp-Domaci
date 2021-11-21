@@ -1,0 +1,26 @@
+#main th{
+    text-align: left;
+}
+#main{
+
+    width: 1420px;
+}
+img{
+    margin-top: 10px;
+    width: 330px;
+    height: 420px;
+}
+h3{
+    text-align: center;
+}
+#side th:first-child{
+    text-align: left;
+}
+#side img{
+    width: 240px;
+    height: 300px;
+}
+#side td{
+    width: 240px;
+}
+
