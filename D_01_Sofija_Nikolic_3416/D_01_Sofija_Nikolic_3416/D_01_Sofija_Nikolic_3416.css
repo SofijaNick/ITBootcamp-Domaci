@@ -1,0 +1,40 @@
+*{
+    color: #c1f84a;
+}
+body{
+    background-color: #151b29;
+}
+.redDiv{
+    margin-top: 5px;
+    border: 1px solid darkred
+}
+img{
+    border-radius: 50%;
+    height: 280px;
+    width: 360px;
+    border: 5px double darkred;
+    margin: 50px;
+}
+a{
+    color: darkred;
+}
+a:visited{
+    color: #b7ed45;
+}
+a:hover{
+    color:aqua;
+}
+a:active{
+    color: rgb(255, 0, 128)
+}
+img:hover{
+    height: 300px;
+    width: 380px;
+    margin: 30px;
+}
+#imgDiv{
+    text-align: center;
+}
+span{
+    text-align: center;
+}
