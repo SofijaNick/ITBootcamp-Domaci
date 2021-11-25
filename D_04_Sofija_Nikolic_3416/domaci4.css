@@ -29,6 +29,9 @@ fieldset{
     }
 }
 
+
+
+
 @media only screen and (min-width: 600px){
     .col-1{
         width: 8.33%;
@@ -66,14 +69,16 @@ fieldset{
     .col-12 {
         width: 100%;
     }
-
-    @media only screen and (max-width: 880px){
-        .btn{
-            width: 100%;
-        }
-    }
     
 }
+
+
+@media only screen and (min-width: 601px) and (max-width: 880px){
+    .btn{
+        width: 100%;
+    }
+}
+
 
 .btn{
     float: right;
