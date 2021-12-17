@@ -49,6 +49,6 @@ function ispisi(n){
     document.body.innerHTML += `<p style = "font-size: ${n}px">Neki tekst</p>`
 }
 
-let tekst = ispisi(30);
-tekst;
+ispisi(30);
+
 
