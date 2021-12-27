@@ -30,7 +30,7 @@ let dan = {
     //2. Zadatak
     nepovoljan: function(){
         let poslednja = this.temperature[0];
-        for(let i = 0; i <this.temperature.length; i++){
+        for(let i = 0; i <this.temperature.length -1; i++){
             if(Math.abs(this.temperature[i] - poslednja) > 8){
                 return true;
             }else{
