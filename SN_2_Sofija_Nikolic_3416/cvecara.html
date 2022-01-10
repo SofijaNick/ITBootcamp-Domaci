@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cvecara.css">
+</head>
+<body>
+
+    <form action="/shelter">
+        <h2>Odaberite Cvece:</h2>
+
+        <div id="r">
+            <input type="number" name="" id="ruze" placeholder="Cena po cvetu je 120 din.">
+            <label for="ruze">Ruze</label>
+        </div>
+        <div id="lj">
+            <input type="number" name="" id="ljiljani" placeholder="Cena po cvetu je 150 din.">
+            <label for="ljiljani">Ljiljani</label>
+        </div>
+        <div id="g">
+            <input type="number" name="" id="gerberi" placeholder="Cena po cvetu je 70 din."> 
+            <label for="gerberi">Gerberi</label>
+        </div>
+    
+        <h2>Dodatni pokloni:</h2>
+
+        <div>
+            <input type="checkbox" name="dodaci" id="bombonjera"> 
+            <label for="bombonjera">Bombonjera</label>
+        </div>
+        <div>
+            <input type="checkbox" name="dodaci" id="cokolada">
+            <label for="cokolada">Cokolada</label>
+        </div>
+        <div>
+            <input type="checkbox" name="dodaci" id="sampanjac">
+            <label for="sampanjac">Sampanjac</label>
+        </div>
+
+        <h2>Placanje</h2>
+
+        <div>
+            <input type="radio" name="placanje" id="kes" value="kes">
+            <label for="kes">Kes</label>
+        </div>
+        <div>
+            <input type="radio" name="placanje" id="kartica" value="kartica">
+            <label for="kartica">Kartice</label>
+        </div>
+
+        <button id="izracunaj">Izracunaj</button>
+        <button id="resetuj" onClick="window.location.reload()">Resetuj</button>
+
+        <h2>Vasa porudzbina:</h2>
+
+    </form>
+
+    <div id="slike1"></div>
+    <div id="slike2"></div>
+    <div id="slike3"></div>
+
+    <div id="dodaci"></div>
+
+    <div id="cena"></div>
+
+
+
+
+
+
+
+    <script src="cvecara.js"></script>
+</body>
+</html>

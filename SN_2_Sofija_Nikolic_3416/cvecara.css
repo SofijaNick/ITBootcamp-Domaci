@@ -1,0 +1,14 @@
+form{
+    position: relative;
+    left: 40%;
+}
+button{
+    margin-top: 20px;
+    padding: 5px;
+}
+img{
+    height: 90px;
+    width: 10%;
+    border-radius: 50%;
+}
+

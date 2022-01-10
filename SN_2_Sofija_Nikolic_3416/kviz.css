@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+form{
+    position: relative;
+    left: 40%;
+}
+div{
+    border: 2px solid orange;
+    width: 400px;
+    border-radius: 2%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 248, 240);
+}
+
+button{
+    padding: 5px;
+    margin-left: 5px;
+}
