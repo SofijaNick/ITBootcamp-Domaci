@@ -1,0 +1,17 @@
+[
+    {
+        "imePrezime": "Pera Peric",
+        "visina": "185",
+        "timovi": ["Golden State Warriors"]
+    },
+    {
+        "imePrezime": "Mika Mikic",
+        "visina": "189",
+        "timovi": ["Lakers", "LA Clippers"]
+    },
+    {
+        "imePrezime": "Zika Zikic",
+        "visina": "191",
+        "timovi": ["Golden State Warriors", "LA Clippers", "Lakers"]
+    }
+]
