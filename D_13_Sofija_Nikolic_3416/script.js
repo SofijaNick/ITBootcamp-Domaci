@@ -26,7 +26,7 @@ getSportisti(visina)
 let transferi = niz => {
     let najmanje = niz[0];
     niz.forEach(s => {
-        if(s.timovi < najmanje.timovi){
+        if(s.timovi.length < najmanje.timovi.length){
             najmanje = s;
         }
     })
